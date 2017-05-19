@@ -3,8 +3,12 @@
 
 Purge cache in cloudflare
 
-Build :
-`docker build . -t cfcli`
+## Usage
 
 Run :
-`docker run cfcli --email=EMAIL --token=TOKEN -d DOMAIN purge`
+`docker run anjuna/cfcli --email=EMAIL --token=TOKEN -d DOMAIN purge`
+
+## Dev
+
+Build :
+`docker build . -t anjuna/cfcli`
